@@ -1,0 +1,41 @@
+# Editor swap files
+*.swp
+*.swo
+
+# Flutter / Dart generated local state
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+/build/
+/coverage/
+
+# Android local configuration and generated output
+/android/.gradle/
+/android/.kotlin/
+/android/local.properties
+/android/key.properties
+/android/app/.cxx/
+/android/app/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+/secrets/
+
+# Personal test content, runtime libraries and local build artifacts
+/test/private_fixtures/
+/local-data/
+/artifacts/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Keep pubspec.lock, generated schema fixtures, licence files and authored
+# test fixtures tracked for repeatable application builds and migrations.
